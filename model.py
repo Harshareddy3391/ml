@@ -14,3 +14,6 @@ from sklearn.metrics import mean_squared_error
 
 
 #Load data set
+Data_path="melb_data.csv"
+
+df=pd.read_csv(Data_path)
